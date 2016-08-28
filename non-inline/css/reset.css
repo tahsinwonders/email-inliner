@@ -1,0 +1,63 @@
+/*CSS RESET*/
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .ExternalClass {
+        width: 100%;
+    }
+    /* Forces Outlook.com to display emails at full width */
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 125%!important;
+    }
+    /* Force Hotmail to display normal line spacing */
+
+    .ExternalClass p,
+    .ExternalClass h1,
+    .ExternalClass h2,
+    .ExternalClass h3 {
+        margin: 0!important;
+        padding: 0!important;
+        margin-bottom: 0!important;
+        display: inline!important;
+    }
+    /* Resets all body margins and padding to 0 for good measure */
+
+    #outlook a {
+        padding: 0;
+    }
+
+    .backgroundTable {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    #backgroundTable,
+    #bodyCell {
+        height: 100% !important;
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+    }
+
+    span.autoLinks a {
+        color: #ffffff!important;
+        text-decoration: none!important;
+    }
+    span.preheader {
+        font-size: 0;
+        line-height: 0;
+        display: none;
+    }
