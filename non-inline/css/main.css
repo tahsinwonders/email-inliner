@@ -93,7 +93,7 @@ img {
 }
 
 /*basic block inline style*/
-.col-inline-4 {
+.col-inline-150 {
   display: inline-block;
   width: 100%;
   max-width: 150px;
@@ -101,12 +101,20 @@ img {
   text-align: left;
 }
 
-.o-col-inline-4 {
+.col-inline-200 {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.o-col-inline-3 {
   width: 150px;
   text-align: left;
 }
 
-.col-inline-6 {
+.col-inline-300 {
   display: inline-block;
   width: 100%;
   max-width: 300px;
@@ -116,10 +124,6 @@ img {
 
 .o-col-inline-6 {
   width: 300px;
-  text-align: left;
-}
-
-.col-inline-4 td, .col-inline-6 td {
   text-align: left;
 }
 
