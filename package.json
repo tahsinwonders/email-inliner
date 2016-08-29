@@ -6,6 +6,7 @@
   "author": "tahsin",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-email-builder": "^4.0.0",
     "grunt-express": "^1.4.1"
