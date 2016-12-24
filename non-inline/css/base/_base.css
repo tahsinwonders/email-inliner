@@ -1,0 +1,15 @@
+body {
+  margin: 0 !important;
+  padding: 0;
+  background-color: #ccc; }
+
+.h1 {
+  font-size: 28px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #58595b; }
+
+.p {
+  font-size: 12px;
+  line-height: 17px;
+  color: #58595b; }

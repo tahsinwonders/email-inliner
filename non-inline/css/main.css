@@ -1,68 +1,25 @@
-.pink-bg {
-  background-color: #ed2891;
-}
-
-.orange-bg {
-  background-color: #ffc20e;
-}
-
-.lime-bg {
-  background-color: #cbdb2a;
-}
-
-.wrapper {
-  background-color: #53b7e8;
-  /* Basics */
-}
-
 body {
   margin: 0 !important;
   padding: 0;
-  background-color: #53b7e8;
-}
-
-table {
-  border-spacing: 0;
-  font-family: sans-serif;
-  color: #333333;
-}
-table td {
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
-img {
-  border: 0;
-}
-
-.gutter {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-/*fluid image*/
-.img-fluid img {
-  max-width: 100%;
-  height: auto;
-}
-
-.primary-color {
-  color: #585858;
+  background-color: #ccc;
 }
 
 .h1 {
   font-size: 28px;
   line-height: 27px;
   font-weight: bold;
-  color: #cbdb2a;
+  color: #58595b;
 }
 
 .p {
   font-size: 12px;
   line-height: 17px;
-  color: white;
+  color: #58595b;
+}
+
+.wrapper {
+  background-color: #ccc;
+  /* Basics */
 }
 
 .center {
@@ -74,17 +31,33 @@ img {
   width: 100%;
 }
 
-/*outlook word render engine cheat*/
-.o-container {
-  width: 600px;
-}
-
-/*gmail container expand*/
 .expand-container {
   width: 100% !important;
 }
 
-/*centering block and removing the extra gap when using inline block*/
+.gutter {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  color: #58595b;
+}
+
+table td {
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.img-fluid img {
+  max-width: 100%;
+  height: auto;
+}
+
 .center-inline-blocks {
   text-align: center;
   font-size: 0;
@@ -92,39 +65,23 @@ img {
   vertical-align: top;
 }
 
-/*basic block inline style*/
-.col-inline-150 {
-  display: inline-block;
-  width: 100%;
-  max-width: 150px;
+.inline {
   vertical-align: top;
   text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+.col-inline-150 {
+  max-width: 150px;
 }
 
 .col-inline-200 {
-  display: inline-block;
-  width: 100%;
   max-width: 200px;
-  vertical-align: top;
-  text-align: left;
-}
-
-.o-col-inline-3 {
-  width: 150px;
-  text-align: left;
 }
 
 .col-inline-300 {
-  display: inline-block;
-  width: 100%;
   max-width: 300px;
-  vertical-align: top;
-  text-align: left;
-}
-
-.o-col-inline-6 {
-  width: 300px;
-  text-align: left;
 }
 
 /*# sourceMappingURL=main.css.map */
