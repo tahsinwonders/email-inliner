@@ -32,24 +32,14 @@ module.exports = function(grunt) {
 		      tasks: ['emailBuilder', 'sass'],
 		    },
 		},
-		express:{
-            all:{
-                options:{
-                    port:9000,
-                    hostname:'localhost',
-                    bases:['./non-inline/'], //where yout localhost:9000/ is
-                    livereload:true 
-                }
-            }
-        },
+		
 		
 	}); //CLOSE grunt.initConfig
 	// load the plug in
 	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-express');  
 	grunt.loadNpmTasks('grunt-email-builder');
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	// do the task
-	grunt.registerTask('server', ['express','watch', 'sass']);
+	grunt.registerTask('default', ['watch']);
 
 };//CLOSE FUNCTION
