@@ -13,23 +13,13 @@ module.exports = function(grunt) {
                 dest    : './generated-inline/'
             }
         },
-        sass: {                              // Task
-		    dist: {                            // Target
-		      options: {                       // Target options
-		        style: 'expanded'
-		      },
-		      files: {                         // Dictionary of files
-		        './non-inline/css/main.css': './non-inline/sass/main.scss',       // 'destination': 'source'
-		        
-		      }
-		    }
-		  },
+      
 		
 		watch: {
 		    'normal': {
 	    	  options:{livereload:true},
-		      files: ['./non-inline/*.html', './non-inline/css/*.css', './non-inline/sass/**'],
-		      tasks: ['emailBuilder', 'sass'],
+		      files: ['./non-inline/*.html', './non-inline/css/*.css'],
+		      tasks: ['emailBuilder'],
 		    },
 		},
 		
@@ -38,7 +28,6 @@ module.exports = function(grunt) {
 	// load the plug in
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-email-builder');
-	grunt.loadNpmTasks('grunt-contrib-sass');
 	// do the task
 	grunt.registerTask('default', ['watch']);
 
